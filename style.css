@@ -1,0 +1,80 @@
+/* Global styles */
+body {
+    font-family: Arial, sans-serif;
+    font-size: 16px;
+    margin: 0;
+    padding: 0;
+  }
+  
+  /* Header styles */
+  header {
+    background-color: rgb(255, 255, 255);
+    color: rgb(0, 0, 0);
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    padding: 20px;
+  }
+  
+  header h1 {
+    font-size: 28px;
+    margin: 0;
+  }
+  
+  nav ul {
+    list-style: none;
+    display: flex;
+    margin: 0;
+    padding: 0;
+  }
+  
+  nav li {
+    margin-right: 20px;
+  }
+  
+  nav li a {
+    color: rgb(0, 0, 0);
+    text-decoration: none;
+  }
+  
+  /* Main styles */
+  section.hero {
+    background-image: url('img/Blue.jpg');
+    background-position: center;
+    background-size: cover;
+    height: 500px;
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+  }
+  
+  section.hero h2 {
+    font-size: 48px;
+    margin: 0;
+    text-align: center;
+  }
+  
+  section.hero p {
+    font-size: 24px;
+    margin: 20px 0;
+    text-align: center;
+  }
+  
+  button {
+    background-color: rgb(74, 74, 74);
+    border: none;
+    color: rgb(255, 255, 255);
+    font-size: 24px;
+    padding: 10px 20px;
+    cursor: pointer;
+  }
+  
+  section.featured-products {
+    padding: 50px;
+  }
+  
+  section.featured-products h3 {
+    font-size: 36px;
+    
+  } 
